@@ -1,45 +1,28 @@
 enable: true
-title: Our Services
+title: How to Partner
 subtitle: >
-  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
+  This site is more about me and my interests, but if you're looking for help we should definitely chat. I have a few avenues to partner through for my services. Check them out and feel free to reach out directly. FYI, I primarily like to take on projects with my United Effects team.
 content:
 
   - icon: ion-coffee
-    name: Branding
+    name: General Consulting
+    url: "/contact"
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
-  - icon: ion-compass
-    name: Web Design
+      I'm happy to discuss your goals and offer any advice my experience can provide.
+  - icon: ion-android-lock
+    name: Identity Management
+    url: "https://ueauth.io"
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
-  - icon: ion-image
-    name: App Design
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
-  - icon: ion-bug
-    name: Start Up
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
-  - icon: ion-headphone
-    name: Logo Design
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
+      If you're looking for an easy way to manage users and multi-tenant domains, checkout my IDM system: ueauth.io
   - icon: ion-leaf
-    name: Development
+    name: Software Design & Development
+    url: "https://unitedeffects.com"
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
+      I make my living building enterprise software for large companies. I'm happy to discuss your web project and see how I can help.
   - icon: ion-planet
-    name: Brand Identity
+    name: Business Strategy
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      My team and I offer services around branding, start-ups, scaling your technology, cutting edge implementation, and monetization.
 
-  - icon: ion-earth
-    name: Brand Identity
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+
+

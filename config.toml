@@ -11,44 +11,40 @@ theme = "airspace-hugo"
     url = "/blog"
   [[menu.header]]
     weight = 3
+    name = "Services"
+    url = "/service"
+  [[menu.header]]
+    weight = 4
     name = "Contact Me"
     url = "/contact"
   [[menu.header]]
-    weight = 4
+    weight = 5
     name = "LinkedIn"
     url = "https://www.linkedin.com/in/bmotlagh"
   [[menu.header]]
-    weight = 5
+    weight = 6
     name = "Medium Blog"
     url = "https://medium.com/@theboeffect"
-  [[menu.header]]
-    weight = 6
-    name = "United Effects"
-    url = "https://unitedeffects.com"
-  [[menu.header]]
-    weight = 7
-    name = "UEAuth"
-    url = "https://ueauth.io"
 
   [[menu.footer]]
     weight = 1
-    name = "Home"
-    url = "/"
+    name = "About Me"
+    url = "/#intro"
+  [[menu.footer]]
+    weight = 2
+    name = "Services"
+    url = "/#service"
   [[menu.footer]]
     weight = 3
     name = "Contact"
     url = "/contact"
-  [[menu.footer]]
-    weight = 2
-    name = "About Me"
-    url = "https://www.linkedin.com/in/bmotlagh"
   [[menu.footer]]
     weight = 4
     name = "Musings"
     url = "/blog"
   [[menu.footer]]
     weight = 5
-    name = "Blog"
+    name = "Medium Blog"
     url = "https://medium.com/@theboeffect"
 
 # The site's parameters
@@ -66,13 +62,13 @@ theme = "airspace-hugo"
   [params.wrapper]
     enable = true
     title = "About Me"
-    italic = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
-    paragraph = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id"
+    italic = "''A man is known by the company he keeps; our character is reflected in our choice of friends.'' - Ralph Waldo Emerson (1803–1882)"
+    paragraph = "In my career, I am an experienced technologist, leader and developer in the IT industry with expertise in software architecture, development, quality management, micro-service implementation, event-driven architectures, commercial product development, enterprise agile implementation, and the directing and management of large organizations. In short, I build software products at scale. In my life, I am an explorer of ideas, science, art and philosophy. I exercise to stay sharp and drink way too much coffee (though I think the science is in my favor in terms of my consumption). I find that the more of life you experience, the easier it is to find the patterns that helps us innovate. So I play music, I paint, I read everything from Karl Marx to Frank Herbert to Hawking and back, and I try to always keep an open mind. And as a result, I start companies… often."
 
-  [params.blog]
-    enable = true
-    title = "Get The Latest On What We're doing"
-    subtitle = "Catch up with us, anytime and anywhere"
+  #[params.blog]
+  #  enable = false
+  #  title = "Get The Latest On What I'm doing"
+  #  subtitle = "Catch up with me, anytime and anywhere"
 
   [params.feature]
     enable = true

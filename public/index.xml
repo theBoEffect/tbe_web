@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>theBoEffect</title>
+    <link>https://theboeffect.com/</link>
+    <description>Recent content on theBoEffect</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Jul 2018 15:32:53 -0400</lastBuildDate>
+    
+	<atom:link href="https://theboeffect.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Done With WordPress</title>
+      <link>https://theboeffect.com/blog/done-with-wordpress/</link>
+      <pubDate>Tue, 17 Jul 2018 15:32:53 -0400</pubDate>
+      
+      <guid>https://theboeffect.com/blog/done-with-wordpress/</guid>
+      <description>Hello and Welcome Once upon a time, I did quite a lot of work with wordpress websites. I had many of my own and I created them for others. Then I found the wonders of Node.js, microservice design, docker, kubernetes and so on and I didn&amp;rsquo;t look back. Unfortunately the one site that I probably should have converted was my main theBoEffect site. Well today I finally have! I can now say that I no longer support any WordPress implementations.</description>
+    </item>
+    
+    <item>
+      <title>RAPIDLY LAUNCH A STARTUP ON GKE, NODE &amp; MONGODB</title>
+      <link>https://theboeffect.com/blog/rapid-startup-nodejs-k8/</link>
+      <pubDate>Tue, 17 Oct 2017 15:32:53 -0400</pubDate>
+      
+      <guid>https://theboeffect.com/blog/rapid-startup-nodejs-k8/</guid>
+      <description>This was a cool project. Here&amp;rsquo;s the opener&amp;hellip;
+ APOLOGIES, THIS IS A LONG ONE. IN THIS POST I’M GOING TO DETAIL HOW I WAS ABLE TO TAKE A SIMPLE IDEA AND TURN INTO A VIABLE REALITY COMPLETE WITH A REVENUE MODEL IN 3 MONTHS. THAT’S 3 MONTHS FROM INCEPTION, THROUGH DESIGN AND ARCHITECTURE, TO DEVELOPMENT AND DEPLOYMENT. WHETHER OR NOT IT WAS A GOOD IDEA IS A SUBJECT FOR ANOTHER POST, HAHA.</description>
+    </item>
+    
+    <item>
+      <title>Contact Me</title>
+      <link>https://theboeffect.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://theboeffect.com/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interesting Projects</title>
+      <link>https://theboeffect.com/work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://theboeffect.com/work/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Services</title>
+      <link>https://theboeffect.com/service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://theboeffect.com/service/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

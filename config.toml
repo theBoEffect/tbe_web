@@ -16,7 +16,7 @@ theme = "airspace-hugo"
   [[menu.header]]
     weight = 4
     name = "Services"
-    url = "/service"
+    url = "/#service"
   [[menu.header]]
     weight = 5
     name = "Contact Me"
@@ -72,30 +72,30 @@ theme = "airspace-hugo"
     enable = true
     title = "About Me"
     italic = "''A man is known by the company he keeps; our character is reflected in our choice of friends.'' - Ralph Waldo Emerson (1803–1882)"
-    paragraph = "In my career, I am an experienced technologist, leader and developer in the IT industry with expertise in software architecture, development, quality management, micro-service implementation, event-driven architectures, commercial product development, enterprise agile implementation, and the directing and management of large organizations. In short, I build software products at scale. In my life, I am an explorer of ideas, science, art and philosophy. I exercise to stay sharp and drink way too much coffee (though I think the science is in my favor in terms of my consumption). I find that the more of life you experience, the easier it is to find the patterns that helps us innovate. So I play music, I paint, I read everything from Karl Marx to Frank Herbert to Hawking and back, and I try to always keep an open mind. And as a result, I start companies… often."
+    paragraph = "In my career, I am an experienced technologist, leader and developer in the IT industry with expertise in software architecture, development, quality management, micro-service implementation, event-driven architectures, commercial product development, enterprise agile implementation, and the directing and management of large organizations. In short, I build software products at scale. In my life, I am an explorer of ideas, science, art and philosophy. I exercise to stay sharp and drink way too much coffee (though I think the science is in my favor in terms of my consumption). I find that the more of life you experience, the easier it is to find the patterns that helps us innovate. So I play music, I paint, I read everything from Karl Marx to Frank Herbert to Hawking and back, and I try to always keep an open mind."
 
   #[params.blog]
   #  enable = false
   #  title = "Get The Latest On What I'm doing"
   #  subtitle = "Catch up with me, anytime and anywhere"
 
-  [params.feature]
-    enable = true
-    title = "A Few Projects I Enjoyed"
-    content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
-    [params.feature.button]
-      caption = "View Works"
-      url = "#"
+  #[params.feature]
+  #  enable = true
+  #  title = "A Few Projects I Enjoyed"
+  #  content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+  #  [params.feature.button]
+  #    caption = "View Works"
+  #    url = "#"
 
   [params.call]
     enable = true
-    title = "We design delightful digital experiences."
-    paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+    title = "Innovation Through Collaboration"
+    paragraph = "I love thinking through interesting problems both technical and non-technical. If you think I can contribute, reach out and lets chat!"
 
-# need to setup actual contact option...
   [params.contact]
     enable = true
     title = "Contact Me"
+    email = "borzou@theboeffect.com"
     subtitle = "I love partnering on interesting projects or providing any insights I can offer."
     [params.contact.form]
       name = "Your name"

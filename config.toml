@@ -2,6 +2,7 @@ title = "theBoEffect"
 baseURL = "https://theboeffect.com"
 languageCode = "en-us"
 theme = "airspace-hugo"
+publishDir = "docs"
 
 [menu]
 

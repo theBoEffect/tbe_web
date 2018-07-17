@@ -1,0 +1,40 @@
+enable: true
+title: Just some of our latest projects.
+subtitle: Don’t just take our word for it. Check out some of our latest work.
+
+portfolioCats:
+  - category: Tools
+  - category: Web
+  - category: IoT
+  - category: SaaS
+portfolio:
+  - category: Tools
+    url: "#"
+    image: "/img/portfolio/work1.jpg"
+    name: API Testing Tool
+    description: >
+      Labore et dolore magna aliqua. Ut enim ad
+  - category: Web
+    url: "#"
+    image: "/img/portfolio/work1.jpg"
+    name: Freedom Postcards
+    description: >
+      Labore et dolore magna aliqua. Ut enim ad
+  - category: Web
+    url: "#"
+    image: "/img/portfolio/work2.jpg"
+    name: The Jasmine Effect
+    description: >
+      Labore et dolore magna aliqua. Ut enim ad
+  - category: IoT
+    url: "#"
+    image: "/img/portfolio/work3.jpg"
+    name: Frontline Alexa
+    description: >
+      Labore et dolore magna aliqua. Ut enim ad
+  - category: SaaS
+    url: "#"
+    image: "/img/portfolio/work4.jpg"
+    name: UE Auth
+    description: >
+      Labore et dolore magna aliqua. Ut enim ad

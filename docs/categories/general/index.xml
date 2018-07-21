@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>General on theBoEffect</title>
-    <link>https://theboeffectllc.github.io/tbe_web/categories/general/</link>
+    <link>https://theboeffect.com/categories/general/</link>
     <description>Recent content in General on theBoEffect</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 17 Jul 2018 15:32:53 -0400</lastBuildDate>
     
-	<atom:link href="https://theboeffectllc.github.io/tbe_web/categories/general/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://theboeffect.com/categories/general/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Done With WordPress</title>
-      <link>https://theboeffectllc.github.io/tbe_web/blog/done-with-wordpress/</link>
+      <link>https://theboeffect.com/blog/done-with-wordpress/</link>
       <pubDate>Tue, 17 Jul 2018 15:32:53 -0400</pubDate>
       
-      <guid>https://theboeffectllc.github.io/tbe_web/blog/done-with-wordpress/</guid>
+      <guid>https://theboeffect.com/blog/done-with-wordpress/</guid>
       <description>Hello and Welcome Once upon a time, I did quite a lot of work with wordpress websites. I had many of my own and I created them for others. Then I found the wonders of Node.js, microservice design, docker, kubernetes and so on and I didn&amp;rsquo;t look back. Unfortunately the one site that I probably should have converted was my main theBoEffect site. Well today I finally have! I can now say that I no longer support any WordPress implementations.</description>
     </item>
     

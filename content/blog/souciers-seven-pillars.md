@@ -5,7 +5,7 @@ tags = ["news"]
 categories = ["recommendation"]
 +++
 
-One of my mentors recently asked for a recommendation. That's an interesting moment in your career. I feel a bit of pride in the recognition from someone who for a decade was my teacher and now recognizes me as a peer. My career would not be what it is were it not for his mentorship and abilities.
+One of my mentors recently asked me for a recommendation. That's an interesting moment in your career. I feel a bit of pride in the recognition from someone who for a decade was my teacher and now recognizes me as a peer. My career would not be what it is were it not for his mentorship and abilities.
 
 With this in mind I sat down to write a recommendation and found myself visiting the mecca of networked connection and self-aggrandization for inspiration, LinkedIn. I say that with tongue in cheek, my profile is far more… shall we say, ornate… than most. Still it bothered me that I would write a recommendation similar to these thousands of personal vouchers thrown into the wind. Here’s one more… Alan, he’s pretty great. It’s true that he planned to post this on his own new website, and I hope he does. But still, I felt I could upgrade this whole thing just a little. So instead of the usual paragraph of condensed power words and movie trailer style attempts at conveying an entire relationship in as few words as possible, here is an entire post about my friend, teacher, and the first true manager I ever had, Alan Soucier.
 

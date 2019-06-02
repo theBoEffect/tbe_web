@@ -12,30 +12,22 @@ publishDir = "docs"
     url = "/#intro"
   [[menu.header]]
     weight = 3
-    name = "Blog"
-    url = "https://medium.com/@theboeffect"
-  [[menu.header]]
-    weight = 4
     name = "Services"
     url = "/#service"
   [[menu.header]]
-    weight = 5
+    weight = 4
     name = "Contact Me"
     url = "/contact"
   [[menu.header]]
-    weight = 6
+    weight = 5
     name = "Resume"
     url = "https://www.linkedin.com/in/bmotlagh"
-  [[menu.header]]
-    weight = 7
-    name = "United Effects"
-    url = "https://unitedeffects.com"
 
 
   [[menu.footer]]
     weight = 1
-    name = "Musings"
-    url = "/blog"
+    name = "Blog"
+    url = "https://medium.com/@theboeffect"
   [[menu.footer]]
     weight = 2
     name = "Services"
@@ -50,12 +42,12 @@ publishDir = "docs"
     url = "https://www.linkedin.com/in/bmotlagh"
   [[menu.footer]]
     weight = 5
-    name = "Medium Blog"
-    url = "https://medium.com/@theboeffect"
-  [[menu.footer]]
-    weight = 6
     name = "Twitter"
     url = "https://twitter.com/theboeffect"
+  [[menu.footer]]
+    weight = 6
+    name = "United Effects"
+    url = "https://unitedeffects.com"
 
 # The site's parameters
 [params]

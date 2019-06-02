@@ -12,8 +12,8 @@ publishDir = "docs"
     url = "/#intro"
   [[menu.header]]
     weight = 3
-    name = "Musings"
-    url = "/blog"
+    name = "Blog"
+    url = "https://medium.com/@theboeffect"
   [[menu.header]]
     weight = 4
     name = "Services"
@@ -28,8 +28,8 @@ publishDir = "docs"
     url = "https://www.linkedin.com/in/bmotlagh"
   [[menu.header]]
     weight = 7
-    name = "Medium Blog"
-    url = "https://medium.com/@theboeffect"
+    name = "United Effects"
+    url = "https://unitedeffects.com"
 
 
   [[menu.footer]]

@@ -70,7 +70,6 @@ publishDir = "docs"
     paragraph = "Disconnected SaaS products create a drag on sales, engineering, and solution ROI. Core EOS provides a foundation to connect and organize users, customers, and data across your products with a single-pane view."
     [params.call.button]
       url = "https://unitedeffects.com"
-      text = "Check It Out"
 
   [params.contact]
     enable = true

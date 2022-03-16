@@ -11,35 +11,19 @@ publishDir = "docs"
     name = "About Me"
     url = "/#intro"
   [[menu.header]]
-    weight = 3
-    name = "Services"
-    url = "/#service"
-  [[menu.header]]
     weight = 4
     name = "Contact Me"
     url = "/contact"
-  [[menu.header]]
-    weight = 5
-    name = "Resume"
-    url = "https://www.linkedin.com/in/bmotlagh"
 
 
   [[menu.footer]]
     weight = 1
     name = "Blog"
-    url = "https://medium.com/@theboeffect"
-  [[menu.footer]]
-    weight = 2
-    name = "Services"
-    url = "/#service"
+    url = "https://bomotlagh.unitedeffects.com"
   [[menu.footer]]
     weight = 3
     name = "Contact"
     url = "/contact"
-  [[menu.footer]]
-    weight = 4
-    name = "Resume"
-    url = "https://www.linkedin.com/in/bmotlagh"
   [[menu.footer]]
     weight = 5
     name = "Twitter"
@@ -58,14 +42,14 @@ publishDir = "docs"
 
   [params.slider]
     enable = true
-    title = "A Builder and Dreamer"
-    subtitle = "The simplest explanation: I like to explore ideas... what's yours?"
+    title = "Personal Site of Bo Motlagh"
+    subtitle = "I like to build tech..."
 
   [params.wrapper]
     enable = true
     title = "About Me"
-    italic = "''A man is known by the company he keeps; our character is reflected in our choice of friends.'' - Ralph Waldo Emerson (1803–1882)"
-    paragraph = "My name is Borzou Motlagh, but most people call me Bo. In my career, I am an experienced technologist, leader and developer in the IT industry with expertise in software architecture, development, quality management, micro-service implementation, event-driven architectures, commercial product development, enterprise agile implementation, and the directing and management of large organizations. In short, I build software products at scale. In my life, I am an explorer of ideas, science, art and philosophy. I exercise to stay sharp and drink way too much coffee (though I think the science is in my favor in terms of my consumption). I find that the more of life you experience, the easier it is to find the patterns that helps us innovate. So I play music, I paint, I read everything from Karl Marx to Frank Herbert to Hawking and back, and I try to always keep an open mind."
+    italic = "Currently Founder and CEO of United Effects LLC"
+    paragraph = "I design, build and lead enterprise platforms, emerging technologies, and engineering organizations. I am passionate about building people centric products and culture. I've been called ambitious..."
 
   #[params.blog]
   #  enable = false
@@ -82,14 +66,17 @@ publishDir = "docs"
 
   [params.call]
     enable = true
-    title = "Innovation Through Collaboration"
-    paragraph = "I love thinking through interesting problems both technical and non-technical. If you think I can contribute, reach out and lets chat!"
+    title = "Have you seen United Effects Core EOS?"
+    paragraph = "Disconnected SaaS products create a drag on sales, engineering, and solution ROI. Core EOS provides a foundation to connect and organize users, customers, and data across your products with a single-pane view."
+    [params.call.button]
+      url = "https://unitedeffects.com"
+      text = "Check It Out"
 
   [params.contact]
     enable = true
     title = "Contact Me"
     email = "borzou@theboeffect.com"
-    subtitle = "I love partnering on interesting projects or providing any insights I can offer."
+    subtitle = "Happy to network!"
     [params.contact.form]
       name = "Your name"
       email = "Your email"
@@ -98,7 +85,7 @@ publishDir = "docs"
       button = "Send message"
     [params.contact.box]
       title = "What can I help you with?"
-      address = "Philadelphia, PA, USA"
+      address = "Fort Washington, PA, USA"
       email = "Email: borzou@theboeffect.com"
       twitter = "Twitter: @theBoEffect"
     [params.contact.gmaps]

@@ -18,6 +18,12 @@
   </url>
   
   <url>
+    <loc>https://theboeffect.com/</loc>
+    <lastmod>2018-10-13T15:32:53-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://theboeffect.com/categories/</loc>
     <priority>0</priority>
   </url>
@@ -66,12 +72,6 @@
   <url>
     <loc>https://theboeffect.com/categories/technology/</loc>
     <lastmod>2017-10-17T15:32:53-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://theboeffect.com/</loc>
-    <lastmod>2018-10-13T15:32:53-04:00</lastmod>
     <priority>0</priority>
   </url>
   

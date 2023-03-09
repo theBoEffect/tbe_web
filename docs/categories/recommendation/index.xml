@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recommendation on Bo Motlagh</title>
+    <title>recommendation on Bo Motlagh</title>
     <link>https://theboeffect.com/categories/recommendation/</link>
-    <description>Recent content in Recommendation on Bo Motlagh</description>
+    <description>Recent content in recommendation on Bo Motlagh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Oct 2018 15:32:53 -0400</lastBuildDate>
-    
-	<atom:link href="https://theboeffect.com/categories/recommendation/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 13 Oct 2018 15:32:53 -0400</lastBuildDate><atom:link href="https://theboeffect.com/categories/recommendation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Everything I Know about Managment: Soucier&#39;s Seven Pillars</title>
       <link>https://theboeffect.com/blog/souciers-seven-pillars/</link>

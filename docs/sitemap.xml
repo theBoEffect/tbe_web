@@ -1,78 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://theboeffect.com/blog/souciers-seven-pillars/</loc>
-    <lastmod>2018-10-13T15:32:53-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://theboeffect.com/blog/done-with-wordpress/</loc>
-    <lastmod>2018-07-17T15:32:53-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://theboeffect.com/blog/rapid-startup-nodejs-k8/</loc>
-    <lastmod>2017-10-17T15:32:53-04:00</lastmod>
-  </url>
-  
   <url>
     <loc>https://theboeffect.com/</loc>
     <lastmod>2018-10-13T15:32:53-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://theboeffect.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://theboeffect.com/contact/</loc>
-  </url>
-  
-  <url>
-    <loc>https://theboeffect.com/categories/general/</loc>
-    <lastmod>2018-07-17T15:32:53-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://theboeffect.com/work/</loc>
-  </url>
-  
-  <url>
+    <lastmod>2018-10-13T15:32:53-04:00</lastmod>
+  </url><url>
+    <loc>https://theboeffect.com/blog/souciers-seven-pillars/</loc>
+    <lastmod>2018-10-13T15:32:53-04:00</lastmod>
+  </url><url>
     <loc>https://theboeffect.com/tags/news/</loc>
     <lastmod>2018-10-13T15:32:53-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://theboeffect.com/blog/</loc>
     <lastmod>2018-10-13T15:32:53-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://theboeffect.com/categories/recommendation/</loc>
     <lastmod>2018-10-13T15:32:53-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://theboeffect.com/service/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://theboeffect.com/tags/</loc>
     <lastmod>2018-10-13T15:32:53-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://theboeffect.com/blog/done-with-wordpress/</loc>
+    <lastmod>2018-07-17T15:32:53-04:00</lastmod>
+  </url><url>
+    <loc>https://theboeffect.com/categories/general/</loc>
+    <lastmod>2018-07-17T15:32:53-04:00</lastmod>
+  </url><url>
+    <loc>https://theboeffect.com/blog/rapid-startup-nodejs-k8/</loc>
+    <lastmod>2017-10-17T15:32:53-04:00</lastmod>
+  </url><url>
     <loc>https://theboeffect.com/categories/technology/</loc>
     <lastmod>2017-10-17T15:32:53-04:00</lastmod>
-    <priority>0</priority>
+  </url><url>
+    <loc>https://theboeffect.com/contact/</loc>
+  </url><url>
+    <loc>https://theboeffect.com/work/</loc>
+  </url><url>
+    <loc>https://theboeffect.com/service/</loc>
   </url>
-  
 </urlset>

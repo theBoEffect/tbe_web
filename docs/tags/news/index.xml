@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>News on Bo Motlagh</title>
+    <title>news on Bo Motlagh</title>
     <link>https://theboeffect.com/tags/news/</link>
-    <description>Recent content in News on Bo Motlagh</description>
+    <description>Recent content in news on Bo Motlagh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Oct 2018 15:32:53 -0400</lastBuildDate>
-    
-	<atom:link href="https://theboeffect.com/tags/news/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 13 Oct 2018 15:32:53 -0400</lastBuildDate><atom:link href="https://theboeffect.com/tags/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Everything I Know about Managment: Soucier&#39;s Seven Pillars</title>
       <link>https://theboeffect.com/blog/souciers-seven-pillars/</link>
@@ -37,7 +33,7 @@ With this in mind I sat down to write a recommendation and found myself visiting
       
       <guid>https://theboeffect.com/blog/rapid-startup-nodejs-k8/</guid>
       <description>This was a cool project. Here&amp;rsquo;s the opener&amp;hellip;
- APOLOGIES, THIS IS A LONG ONE. IN THIS POST I’M GOING TO DETAIL HOW I WAS ABLE TO TAKE A SIMPLE IDEA AND TURN INTO A VIABLE REALITY COMPLETE WITH A REVENUE MODEL IN 3 MONTHS. THAT’S 3 MONTHS FROM INCEPTION, THROUGH DESIGN AND ARCHITECTURE, TO DEVELOPMENT AND DEPLOYMENT. WHETHER OR NOT IT WAS A GOOD IDEA IS A SUBJECT FOR ANOTHER POST, HAHA.</description>
+APOLOGIES, THIS IS A LONG ONE. IN THIS POST I’M GOING TO DETAIL HOW I WAS ABLE TO TAKE A SIMPLE IDEA AND TURN INTO A VIABLE REALITY COMPLETE WITH A REVENUE MODEL IN 3 MONTHS. THAT’S 3 MONTHS FROM INCEPTION, THROUGH DESIGN AND ARCHITECTURE, TO DEVELOPMENT AND DEPLOYMENT. WHETHER OR NOT IT WAS A GOOD IDEA IS A SUBJECT FOR ANOTHER POST, HAHA.</description>
     </item>
     
   </channel>

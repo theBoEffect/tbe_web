@@ -16,22 +16,22 @@ publishDir = "docs"
     url = "/contact"
 
 
-  [[menu.footer]]
-    weight = 1
-    name = "Blog"
-    url = "https://bomotlagh.unitedeffects.com"
-  [[menu.footer]]
-    weight = 3
-    name = "Contact"
-    url = "/contact"
-  [[menu.footer]]
-    weight = 5
-    name = "Twitter"
-    url = "https://twitter.com/theboeffect"
-  [[menu.footer]]
-    weight = 6
-    name = "United Effects"
-    url = "https://unitedeffects.com"
+#  [[menu.footer]]
+#    weight = 1
+#    name = "Blog"
+#    url = "https://bomotlagh.unitedeffects.com"
+#  [[menu.footer]]
+#    weight = 3
+#    name = "Contact"
+#    url = "/contact"
+#  [[menu.footer]]
+#    weight = 5
+#    name = "Twitter"
+#    url = "https://twitter.com/theboeffect"
+#  [[menu.footer]]
+#    weight = 6
+#    name = "United Effects"
+#    url = "https://unitedeffects.com"
 
 # The site's parameters
 [params]
@@ -48,8 +48,8 @@ publishDir = "docs"
   [params.wrapper]
     enable = true
     title = "About Me"
-    italic = "Currently Founder and CEO of United Effects LLC"
-    paragraph = "I design, build and lead enterprise platforms, emerging technologies, and engineering organizations. I am passionate about building people centric products and culture. I've been called ambitious..."
+    italic = "Founder and CEO of United Effects"
+    paragraph = "Architect, developer, executive, and technology leader who is passionate about building people centric products and culture, turned first time founder and CEO of United Effects, an Enterprise Integration Hub converging Data, Connectivity, Identity, and Security into one ready-to-use platform. The united effect of the right people coming together is magic."
 
   #[params.blog]
   #  enable = false
@@ -66,8 +66,8 @@ publishDir = "docs"
 
   [params.call]
     enable = true
-    title = "Have you seen United Effects Core EOS?"
-    paragraph = "Disconnected SaaS products create a drag on sales, engineering, and solution ROI. Core EOS provides a foundation to connect and organize users, customers, and data across your products with a single-pane view."
+    title = "Take a peak at the tools we're building at United Effects"
+    paragraph = "Your real-time enterprise integration hub to scale your SaaS from startup to exit with the features you need but don’t have time to build."
     [params.call.button]
       url = "https://unitedeffects.com"
 
@@ -85,7 +85,7 @@ publishDir = "docs"
     [params.contact.box]
       title = "What can I help you with?"
       address = "Fort Washington, PA, USA"
-      email = "Email: borzou@theboeffect.com"
+      email = "Email: bo@unitedeffects.com"
       twitter = "Twitter: @theBoEffect"
     [params.contact.gmaps]
       title = "If you're local, lets grab a coffee!"

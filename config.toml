@@ -10,10 +10,10 @@ publishDir = "docs"
     weight = 2
     name = "About Me"
     url = "/#intro"
-  [[menu.header]]
-    weight = 4
-    name = "Contact Me"
-    url = "/contact"
+#  [[menu.header]]
+#    weight = 4
+#    name = "Contact Me"
+#    url = "https://calendly.com/ue-bo/hello"
 
 
 #  [[menu.footer]]
@@ -42,8 +42,8 @@ publishDir = "docs"
 
   [params.slider]
     enable = true
-    title = "Personal Site of Bo Motlagh"
-    subtitle = "I like to build tech..."
+    title = "At the end of the day..."
+    subtitle = "I like to build things."
 
   [params.wrapper]
     enable = true

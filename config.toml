@@ -27,7 +27,7 @@ publishDir = "docs"
 #  [[menu.footer]]
 #    weight = 5
 #    name = "Twitter"
-#    url = "https://twitter.com/theboeffect"
+#    url = "https://twitter.com/bomotlagh"
 #  [[menu.footer]]
 #    weight = 6
 #    name = "United Effects"
@@ -74,7 +74,7 @@ publishDir = "docs"
   [params.contact]
     enable = true
     title = "Contact Me"
-    email = "borzou@theboeffect.com"
+    email = "borzou@bomotlagh.com"
     subtitle = "Happy to network!"
     [params.contact.form]
       name = "Your name"

@@ -42,14 +42,14 @@ publishDir = "docs"
 
   [params.slider]
     enable = true
-    title = "At the end of the day..."
-    subtitle = "I like to build things."
+    title = "Founder. Technology Expert. Revenue Focused. People Leader."
+    subtitle = "Highly business centric, product and revenue focused, senior technology executive, who designs, and can also build, globally scalable SaaS products."
 
   [params.wrapper]
     enable = true
     title = "About Me"
-    italic = "Founder and CEO of United Effects"
-    paragraph = "Architect, developer, executive, and technology leader who is passionate about building people centric products and culture, turned first time founder and CEO of United Effects, an Enterprise Integration Hub converging Data, Connectivity, Identity, and Security into one ready-to-use platform. The united effect of the right people coming together is magic."
+    italic = "Seasoned and innovative enterprise leader"
+    paragraph = "For 20 years I've been designing, building, integrating, and leading globally available SaaS and on-prem technologies, scaling products, and bridging disparate systems into cohesive platforms. I've been an architect, developer, manager, product leader, CTO, board advisor, change agent, and a Founder, CEO. I like to build things and help people achieve their goals."
 
   #[params.blog]
   #  enable = false
@@ -66,8 +66,8 @@ publishDir = "docs"
 
   [params.call]
     enable = true
-    title = "Take a peak at the tools we're building at United Effects"
-    paragraph = "Your real-time enterprise integration hub to scale your SaaS from startup to exit with the features you need but don’t have time to build."
+    title = "Curious about United Effects?"
+    paragraph = "United Effects focuses on post-M&A integration, aligning market positions, integrating product data, streamlining R&D, and ensuring scalable architectures to unlock M&A value and drive growth. Click below connect with the team and learn more."
     [params.call.button]
       url = "https://unitedeffects.com"
 
@@ -84,8 +84,8 @@ publishDir = "docs"
       button = "Send message"
     [params.contact.box]
       title = "What can I help you with?"
-      address = "Fort Washington, PA, USA"
-      email = "Email: bo@unitedeffects.com"
-      twitter = "Twitter: @bomotlagh"
+      address = "Ambler, PA, USA"
+      email = "borzou@bomotlagh.com"
+      meeting = "https://calendly.com/ue-bo/hello"
     [params.contact.gmaps]
       title = "If you're local, lets grab a coffee!"

@@ -27,6 +27,24 @@ project_root:
         - "Utility functions should be in camelCase"
         - "Each component should have its own directory if it requires multiple files"
       contents:
+        lib/:
+          purpose: "Contains reusable components and utilities"
+          scope: "Shared code that can be imported throughout the application"
+          conventions:
+            - "Follow $lib alias convention for imports"
+            - "Keep code modular and reusable"
+          contents:
+            components/:
+              purpose: "Houses all reusable Svelte components"
+              scope: "UI components that can be used across multiple pages"
+              conventions:
+                - "Use TypeScript for all components"
+                - "Follow PascalCase naming"
+                - "Keep components focused and single-responsibility"
+                - "Document complex logic or unusual implementations"
+              examples:
+                - "InteractiveColumn.svelte - Landing page column component"
+        
         routes/:
           purpose: "Contains all page and layout components following SvelteKit's file-based routing"
           scope: "All routes, layouts, and page components"
@@ -51,6 +69,14 @@ project_root:
         - "Files here are served at the root path (/)"
         - "Keep files organized in subdirectories if needed"
         - "Optimize assets before adding them here"
+      contents:
+        backgrounds/:
+          purpose: "Contains background images for interactive columns"
+          scope: "Full-size images used as column backgrounds"
+          conventions:
+            - "Images should be optimized for web use"
+            - "Maintain aspect ratios suitable for both desktop and mobile views"
+            - "Use descriptive filenames that indicate image content"
     
     docs:
       purpose: "BUILD OUTPUT ONLY - Directory for the compiled static site"

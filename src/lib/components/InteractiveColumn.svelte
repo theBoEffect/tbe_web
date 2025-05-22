@@ -1,4 +1,10 @@
 <script lang="ts">
+  import AboutContent from './AboutContent.svelte';
+  import ProfessionalContent from './ProfessionalContent.svelte';
+  import NewsContent from './NewsContent.svelte';
+  import UEVContent from './UEVContent.svelte';
+  import ContactContent from './ContactContent.svelte';
+  
   export let title: string;
   export let bgColor: string;
   export let bgHoverColor: string;
@@ -78,41 +84,55 @@
   {/if}
   
   {#if isExpanded}
-    <div class="flex-1 flex items-center justify-center">
-      <p class="text-3xl">hello world</p>
+    <div class="flex-1 w-full content-container">
+      {#if index === 0}
+        <AboutContent />
+      {:else if index === 1}
+        <ProfessionalContent />
+      {:else if index === 2}
+        <NewsContent />
+      {:else if index === 3}
+        <UEVContent />
+      {:else if index === 4}
+        <ContactContent />
+      {/if}
     </div>
   {/if}
 </div>
 
 <style>
-  /* Default state - even distribution */
+  /* Desktop styles */
   div {
     flex: 1;
-    min-width: 0; /* Allow shrinking below content size */
+    min-width: 0;
     transition: all 0.3s ease-in-out;
     --bg-position: center -200px;
   }
 
-  /* Expanded state */
   .expanded {
-    flex: 12; /* Take up more space when expanded */
+    flex: 12;
     transition: all 0.5s ease-in-out;
-  }
-  
-  /* Collapsed state - when another column is expanded */
-  .collapsed {
-    flex: 0.1; /* Very narrow when collapsed */
-    min-width: 10px; /* Minimum width when collapsed */
+    display: flex;
+    flex-direction: column;
   }
 
-  /* Title visibility */
+  .content-container {
+    overflow-y: auto;
+    height: 100%;
+    padding-bottom: 2rem;
+  }
+  
+  .collapsed {
+    flex: 0.1;
+    min-width: 10px;
+  }
+
   .title-hidden {
     opacity: 0;
     transform: scale(0.8);
     transition: all 0.3s ease-in-out;
   }
 
-  /* Title and image container styles */
   .title,
   .image-container {
     position: relative;
@@ -131,32 +151,55 @@
     transition: width 0.3s ease-in-out;
   }
 
-  /* Hover effects for both title and image */
   .column-hover:not(.expanded):hover .title::after,
   .column-hover:not(.expanded):hover .image-container::after {
     width: 100%;
   }
 
-  /* Image container specific styles */
   .image-container {
     display: inline-block;
   }
 
   /* Mobile styles */
-  @media (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     div {
-      min-height: calc(100vh / 5); /* Even distribution in mobile */
-      --bg-position: center; /* Reset background position for mobile */
+      min-height: calc(100vh / 5);
+      --bg-position: center;
+      display: flex;
+      flex-direction: column;
     }
 
     .expanded {
-      flex: 12;
-      min-height: 60vh;
+      min-height: auto;
+      flex: 1;
+      height: auto;
+      padding-bottom: 2rem;
+    }
+
+    .content-container {
+      overflow-y: auto;
+      height: auto;
+      min-height: 50vh;
+      position: relative;
     }
     
     .collapsed {
-      flex: 0.1;
       min-height: 40px;
+      flex: 0;
+    }
+
+    /* Keep title visible and properly positioned in mobile */
+    .expanded .title,
+    .expanded .title-wrapper {
+      opacity: 1 !important;
+      transform: none !important;
+      margin-bottom: 1rem;
+      align-self: flex-start;
+    }
+
+    .expanded .title-hidden {
+      opacity: 1 !important;
+      transform: none !important;
     }
   }
 </style> 

@@ -1,3 +1,3 @@
 # Personal Website
 
-This is the static website of theBoEffect LLC
+This is my personal website.

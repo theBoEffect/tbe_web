@@ -24,7 +24,6 @@
     <InteractiveColumn
       title={column.title}
       bgColor={column.bgColor}
-      bgHoverColor={column.bgHoverColor}
       index={i}
       isExpanded={expandedIndex === i}
       hasExpandedColumn={hasExpandedColumn}

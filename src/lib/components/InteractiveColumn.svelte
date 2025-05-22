@@ -7,7 +7,6 @@
   
   export let title: string;
   export let bgColor: string;
-  export let bgHoverColor: string;
   export let index: number;
   export let isExpanded: boolean;
   export let onToggle: (index: number) => void;

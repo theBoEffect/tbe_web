@@ -1,0 +1,91 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Rule: Project Directory Structure
+description: >
+  Documents the main project directory structure, their purposes, and relationships.
+
+project_root:
+  directories:
+    .cursor:
+      purpose: "Contains IDE-specific rules and configurations"
+      contents:
+        - rules/: "Directory containing project-specific documentation and conventions"
+
+    archive:
+      purpose: "Contains an older version of the site and should be ignored - will eventually be deleted"
+      conventions:
+        - "Never examine or update anything in this directory, the contents are not related to the project"
+    
+    src:
+      purpose: "Contains all source code for the static site"
+      scope: "All Svelte components, styles, and application logic"
+      conventions:
+        - "Components should be in PascalCase"
+        - "Utility functions should be in camelCase"
+        - "Each component should have its own directory if it requires multiple files"
+      contents:
+        routes/:
+          purpose: "Contains all page and layout components following SvelteKit's file-based routing"
+          scope: "All routes, layouts, and page components"
+          conventions:
+            - "+page.svelte files define page content"
+            - "+page.js/.ts files define page data loading and prerendering"
+            - "+layout.svelte files define shared layouts"
+            - "Nested directories create nested routes"
+            - "Square brackets [param] for dynamic routes"
+            - "Group related routes in subdirectories"
+          examples:
+            - "/routes/+page.svelte → /"
+            - "/routes/about/+page.svelte → /about"
+            - "/routes/blog/[slug]/+page.svelte → /blog/:slug"
+            - "/routes/+layout.svelte → shared layout"
+    
+    static:
+      purpose: "Contains static assets that will be copied to the build output"
+      scope: "Static files like images, favicon, and other assets"
+      relationship: "Files here are copied directly to the build root"
+      conventions:
+        - "Files here are served at the root path (/)"
+        - "Keep files organized in subdirectories if needed"
+        - "Optimize assets before adding them here"
+    
+    docs:
+      purpose: "BUILD OUTPUT ONLY - Directory for the compiled static site"
+      scope: "Contains only the built static files that will be served through GitHub Pages"
+      relationship: "Receives compiled output from src directory - DO NOT ADD FILES MANUALLY"
+      conventions:
+        - "⚠️ NEVER add or modify files directly in this directory"
+        - "⚠️ All contents should be generated through the build process only"
+        - "All files here are production-ready and optimized"
+        - "This directory is git-tracked for GitHub Pages deployment"
+        - "Contents are overwritten on each build"
+
+conventions:
+  general:
+    - "Use TypeScript for type safety"
+    - "Use Tailwind CSS for styling"
+    - "Follow Svelte's official best practices"
+    - "Keep components small and focused"
+    - "Maintain clear separation between UI components and business logic"
+  routing:
+    - "Follow SvelteKit's file-based routing conventions"
+    - "Use +page.svelte for page components"
+    - "Use +layout.svelte for shared layouts"
+    - "Use +page.js/.ts for page data and prerendering"
+
+do:
+  must:
+    - "Place all source code in the src directory"
+    - "Place all static assets in the static directory"
+    - "Generate all docs directory content through builds only"
+    - "Follow SvelteKit's routing conventions in src/routes"
+    - "Document any new directories or major structural changes"
+  avoid:
+    - "NEVER add or edit files directly in docs directory"
+    - "NEVER mix source code with build output"
+    - "NEVER place source files outside of src directory"
+    - "NEVER commit manually created files to docs directory"
+    - "NEVER bypass SvelteKit's routing conventions"

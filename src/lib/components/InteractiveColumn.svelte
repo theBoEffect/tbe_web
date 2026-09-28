@@ -2,7 +2,7 @@
   import AboutContent from './AboutContent.svelte';
   import ProfessionalContent from './ProfessionalContent.svelte';
   import NewsContent from './NewsContent.svelte';
-  import UEVContent from './UEVContent.svelte';
+  import UnitedEffectsContent from './UnitedEffectsContent.svelte';
   import ContactContent from './ContactContent.svelte';
   
   export let title: string;
@@ -21,7 +21,7 @@
   $: backgroundImage = index === 0 ? 'thailand.jpeg' 
                     : index === 1 ? 'arizona.jpeg'
                     : index === 2 ? 'sahara.jpeg'
-                    : index === 3 ? 'ww.jpeg'
+                    : index === 3 ? 'ue.jpeg'
                     : index === 4 ? 'mountain.jpeg'
                     : null;
                     
@@ -62,16 +62,15 @@
 >
   {#if index === 3}
     <div 
-      class="mt-8 transition-all duration-300 title-wrapper {isExpanded ? 'self-start ml-8' : ''}"
+      class="mt-8 transition-all duration-300 title-wrapper flex flex-col gap-3 {isExpanded ? 'self-start ml-8 items-start' : 'items-center'}"
       class:title-hidden={!isExpanded && hasExpandedColumn}
     >
-      <div class="image-container">
-        <img 
-          src="/uev.png" 
-          alt="UEV"
-          class="h-8"
-        />
-      </div>
+      <h2 class="text-2xl font-bold title text-white">{title}</h2>
+      <img 
+        src="/uel-logo.png" 
+        alt="United Effects Labs"
+        class="h-10"
+      />
     </div>
   {:else}
     <h2 
@@ -91,7 +90,7 @@
       {:else if index === 2}
         <NewsContent />
       {:else if index === 3}
-        <UEVContent />
+        <UnitedEffectsContent />
       {:else if index === 4}
         <ContactContent />
       {/if}
@@ -105,7 +104,7 @@
     flex: 1;
     min-width: 0;
     transition: all 0.3s ease-in-out;
-    --bg-position: center -200px;
+    --bg-position: center top;
   }
 
   .expanded {
@@ -113,6 +112,7 @@
     transition: all 0.5s ease-in-out;
     display: flex;
     flex-direction: column;
+    --bg-position: center -200px;
   }
 
   .content-container {
@@ -132,14 +132,12 @@
     transition: all 0.3s ease-in-out;
   }
 
-  .title,
-  .image-container {
+  .title {
     position: relative;
     padding-bottom: 4px;
   }
 
-  .title::after,
-  .image-container::after {
+  .title::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -150,13 +148,8 @@
     transition: width 0.3s ease-in-out;
   }
 
-  .column-hover:not(.expanded):hover .title::after,
-  .column-hover:not(.expanded):hover .image-container::after {
+  .column-hover:not(.expanded):hover .title::after {
     width: 100%;
-  }
-
-  .image-container {
-    display: inline-block;
   }
 
   /* Mobile styles */
@@ -173,6 +166,7 @@
       flex: 1;
       height: auto;
       padding-bottom: 2rem;
+      --bg-position: center;
     }
 
     .content-container {

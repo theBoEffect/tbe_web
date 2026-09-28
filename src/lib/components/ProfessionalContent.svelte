@@ -36,6 +36,15 @@
       >
         <Github class="w-8 h-8" />
       </a>
+      <a 
+        href="https://github.com/unitedeffectslabs" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        class="social-link uel-github"
+        aria-label="Visit United Effects Labs GitHub Profile"
+      >
+        <Github class="w-8 h-8" />
+      </a>
     </div>
   </div>
 </div>
@@ -79,6 +88,14 @@
   }
 
   .ue-github:hover {
+    color: white;
+  }
+
+  .uel-github {
+    color: #3ecaec;
+  }
+
+  .uel-github:hover {
     color: white;
   }
 

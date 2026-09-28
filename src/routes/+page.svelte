@@ -6,7 +6,7 @@
     { title: 'ABOUT', bgColor: '#00fff2', bgHoverColor: '#10b5b0' },       // Super Bright Cyan
     { title: 'PROFESSIONAL', bgColor: '#ff9500', bgHoverColor: '#d67520' }, // Bright Orange
     { title: 'NEWS', bgColor: '#00f6ff', bgHoverColor: '#009ecc' },        // Electric Blue
-    { title: 'UEV', bgColor: '#000000', bgHoverColor: '#1A1A1A' },         // Black
+    { title: 'UNITED EFFECTS®', bgColor: '#000000', bgHoverColor: '#1A1A1A' }, // Black
     { title: 'CONTACT', bgColor: '#ffffff', bgHoverColor: '#E8E8E8' }      // Pure White
   ];
 

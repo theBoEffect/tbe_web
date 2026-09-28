@@ -70,3 +70,9 @@ vite.config.ts.timestamp-*
 # temp
 archive/*
 archive2/*
+
+# Yarn Berry
+.yarn/install-state.gz
+
+# Local scratch work
+/scratch/
